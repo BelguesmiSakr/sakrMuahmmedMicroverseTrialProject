@@ -7,5 +7,28 @@
 		<link rel="stylesheet" href="style.css" />
 		<title>Document</title>
 	</head>
-	<body></body>
+	<body>
+		<h1 id="title">freeCodeCamp Survey Form</h1>
+		<p id="description">
+			Thank you for taking the time to help us improve the platform
+		</p>
+		<form id="survey-form">
+			<label for="name">Name</label>
+			<input type="text" id="name" />
+			<label for="email">Email</label>
+			<input type="email" id="email" />
+			<label for="age">Age (optional)</label>
+			<input type="text" id="age" />
+			<label for="dropdown">
+				Which option best describes your current role?
+			</label>
+			<select name="dropdown" id="dropdown">
+				<option value="student">Student</option>
+				<option value="full time job">Full time job</option>
+				<option value="full time learner">Full time learner</option>
+				<option value="prefer not to say">Prefer not to say</option>
+				<option value="other">Other</option>
+			</select>
+		</form>
+	</body>
 </html>
